@@ -1,0 +1,184 @@
+{
+  "products": [
+    {
+      "name": "Miere de Salcam 960 g",
+      "picture": "images/products/miere-salcam-960g.jpg",
+      "price": "45",
+      "description": "Este cea mai limpede miere ce se realizează la noi în tară, iar datorită gustului fin, este preferată de mulţi pentru îndulcirea diverselor alimente sau băuturi.",
+      "stock": "100",
+      "currency": "Lei",
+      "id": "1"
+    },
+    {
+      "name": "Miere de Salcam 7,3 kg",
+      "picture": "images/products/miere-salcam-7300g.jpg",
+      "price": "300",
+      "description": "Se cristalizează mai lent decât alte tipuri de miere şi poate rămâne lichidă ani întregi datorită conţinutului ridicat de fructoză.",
+      "stock": "50",
+      "currency": "Lei",
+      "id": "2"
+    },
+    {
+      "name": "Miere de Salcam 400 g",
+      "picture": "images/products/miere-salcam-400g.jpg",
+      "price": "87.00",
+      "description": "Este folosită ca antiseptic, calmant al tusei, în tratamentul asteniei şi nevrozelor.",
+      "stock": "150",
+      "currency": "Lei",
+      "id": "3"
+    },
+    {
+      "name": "Miere de Salcam 250 g",
+      "picture": "images/products/miere-salcam-400g.jpg",
+      "price": "18",
+      "description": "Mierea de salcam este utilizata in tratarea urmetoarelor afectiuni: ulcer, insomnie, stres, astenie,nevroze,tuse, stimularea poftei de mancare, probleme digestive, imbunatatirea activitatii inimii si a ficatului, creste procentul de hemoglobine din sange.",
+      "stock": "200",
+      "currency": "Lei",
+      "id": "4"
+    },
+    {
+      "name": "Miere Salcam Ursulet 250 g",
+      "picture": "images/products/miere-salcam-pet-250g.jpg",
+      "price": "18",
+      "description": "Este un excelent tonic pentru femei insarcinate,copii si personae aflate in convalescenta.",
+      "stock": "250",
+      "currency": "Lei",
+      "id": "5"
+    },
+    {
+      "name": "Miere Poliflora 960 g",
+      "picture": "images/products/miere-poliflora-960g.jpg",
+      "price": "30",
+      "description": "Rezulta din nectarul florilor mai multor plante, mirosul foarte expresiv denota un buchet nuantat de arome care scoate în evidenta multitudinea de flori care îl compun. Din acest motiv ea poate avea culori si gusturi diferite. Este recomandata pentru afectiuni la nivelul inimii, ficatului pentru stimularea poftei de mâncare si deasemeni pentru probleme digestive. În caz de anorexie la copii mierea este indicata în mod special.",
+      "stock": "100",
+      "currency": "Lei",
+      "id": "6"
+    },
+    {
+      "name": "Miere Poliflora 7,3 kg",
+      "picture": "images/products/miere-poliflora-7300g.jpg",
+      "price": "165",
+      "description": "Rezulta din nectarul florilor mai multor plante, mirosul foarte expresiv denota un buchet nuantat de arome care scoate în evidenta multitudinea de flori care îl compun. Din acest motiv ea poate avea culori si gusturi diferite. Este recomandata pentru afectiuni la nivelul inimii, ficatului pentru stimularea poftei de mâncare si deasemeni pentru probleme digestive. În caz de anorexie la copii mierea este indicata în mod special.",
+      "stock": "75",
+      "currency": "Lei",
+      "id": "7"
+    },
+    {
+      "name": "Miere Poliflora 400 g",
+      "picture": "images/products/miere-poliflora-400g.jpg",
+      "price": "16",
+      "description": "Rezulta din nectarul florilor mai multor plante, mirosul foarte expresiv denota un buchet nuantat de arome care scoate în evidenta multitudinea de flori care îl compun. Din acest motiv ea poate avea culori si gusturi diferite. Este recomandata pentru afectiuni la nivelul inimii, ficatului pentru stimularea poftei de mâncare si deasemeni pentru probleme digestive. În caz de anorexie la copii mierea este indicata în mod special.",
+      "stock": "100",
+      "currency": "Lei",
+      "id": "8"
+    },
+    {
+      "name": "Miere poliflora 250 g",
+      "picture": "images/products/miere-poliflora-250g.jpg",
+      "price": "12",
+      "description": "Rezulta din nectarul florilor mai multor plante, mirosul foarte expresiv denota un buchet nuantat de arome care scoate în evidenta multitudinea de flori care îl compun. Din acest motiv ea poate avea culori si gusturi diferite. Este recomandata pentru afectiuni la nivelul inimii, ficatului pentru stimularea poftei de mâncare si deasemeni pentru probleme digestive. În caz de anorexie la copii mierea este indicata în mod special.",
+      "stock": "125",
+      "currency": "Lei",
+      "id": "9"
+    },
+    {
+      "name": "Miere poliflora 750 g",
+      "picture": "images/products/miere-poliflora-750g.jpg",
+      "price": "25",
+      "description": "Rezulta din nectarul florilor mai multor plante, mirosul foarte expresiv denota un buchet nuantat de arome care scoate în evidenta multitudinea de flori care îl compun. Din acest motiv ea poate avea culori si gusturi diferite. Este recomandata pentru afectiuni la nivelul inimii, ficatului pentru stimularea poftei de mâncare si deasemeni pentru probleme digestive. În caz de anorexie la copii mierea este indicata în mod special.",
+      "stock": "110",
+      "currency": "Lei",
+      "id": "10"
+    },
+    {
+      "name": "Miere de Tei 960 g",
+      "picture": "images/products/miere-tei-960g.jpg",
+      "price": "35",
+      "description": "Este una din cele mai apreciate sortimente de miere fiind bogată în vitamine şi aminoacizi. Are o aroma foarte puternica modificand gustul oricarei bauturi la care este adaugata. Culoarea ei este galben – portocaliu, iar cristalizarea ei se declanşează la câteva luni după extragerea din faguri.",
+      "stock": "75",
+      "currency": "Lei",
+      "id": "11"
+    },
+    {
+      "name": "Miere de Tei 400 g",
+      "picture": "images/products/miere-tei-400g.jpg",
+      "price": "18",
+      "description": "Este una din cele mai apreciate sortimente de miere fiind bogată în vitamine şi aminoacizi. Are o aroma foarte puternica modificand gustul oricarei bauturi la care este adaugata. Culoarea ei este galben – portocaliu, iar cristalizarea ei se declanşează la câteva luni după extragerea din faguri.",
+      "stock": "115",
+      "currency": "Lei",
+      "id": "12"
+    },
+    {
+      "name": "Miere de Tei 250 g",
+      "picture": "images/products/miere-tei-250g.jpg",
+      "price": "13",
+      "description": "Este una din cele mai apreciate sortimente de miere fiind bogată în vitamine şi aminoacizi. Are o aroma foarte puternica modificand gustul oricarei bauturi la care este adaugata. Culoarea ei este galben – portocaliu, iar cristalizarea ei se declanşează la câteva luni după extragerea din faguri.",
+      "stock": "130",
+      "currency": "Lei",
+      "id": "13"
+    },
+    {
+      "name": "Miere de Tei 7,3 kg",
+      "picture": "images/products/miere-tei-7300g.jpg",
+      "price": "240",
+      "description": "Este una din cele mai apreciate sortimente de miere fiind bogată în vitamine şi aminoacizi. Are o aroma foarte puternica modificand gustul oricarei bauturi la care este adaugata. Culoarea ei este galben – portocaliu, iar cristalizarea ei se declanşează la câteva luni după extragerea din faguri.",
+      "stock": "100",
+      "currency": "Lei",
+      "id": "14"
+    },
+    {
+      "name": "Miere de Tei 500 g",
+      "picture": "images/products/miere-tei-500g.jpg",
+      "price": "21",
+      "description": "Este una din cele mai apreciate sortimente de miere fiind bogată în vitamine şi aminoacizi. Are o aroma foarte puternica modificand gustul oricarei bauturi la care este adaugata. Culoarea ei este galben – portocaliu, iar cristalizarea ei se declanşează la câteva luni după extragerea din faguri.",
+      "stock": "90",
+      "currency": "Lei",
+      "id": "15"
+    },
+    {
+      "name": "Miere de Rapita 960 g",
+      "picture": "images/products/miere-rapita-960g.jpg",
+      "price": "30",
+      "description": "Mierea de rapita este o miere de albine interesanta, usor de deosebit fata de celelalte sorturi de miere, in primul rand prin culoarea alba, cateodata alb-gri-galbui, si datorita consistentei cremoase „gen serbet”. Miereade rapita are un miros specific si are un gust placut si mai putin dulce decat alte tipuri de miere.  Cristalizarea mierii de rapita intervine foarte rapid datorita continutului ridicat de glucoza (dextroza), net superior celui de fructoza (levuloza). Din acest motiv, mierea de rapita se gaseste numai sub forma cristalizata, indiferent de perioada din an.",
+      "stock": "80",
+      "currency": "Lei",
+      "id": "16"
+    },
+    {
+      "name": "Miere de Rapita 375 g",
+      "picture": "images/products/miere-rapita-375g.jpg",
+      "price": "16",
+      "description": "Mierea de rapita este o miere de albine interesanta, usor de deosebit fata de celelalte sorturi de miere, in primul rand prin culoarea alba, cateodata alb-gri-galbui, si datorita consistentei cremoase „gen serbet”. Miereade rapita are un miros specific si are un gust placut si mai putin dulce decat alte tipuri de miere.  Cristalizarea mierii de rapita intervine foarte rapid datorita continutului ridicat de glucoza (dextroza), net superior celui de fructoza (levuloza). Din acest motiv, mierea de rapita se gaseste numai sub forma cristalizata, indiferent de perioada din an.",
+      "stock": "85",
+      "currency": "Lei",
+      "id": "17"
+    },
+    {
+      "name": "Miere de Rapita 250 g",
+      "picture": "images/products/miere-rapita-250g.jpg",
+      "price": "10",
+      "description": "Mierea de rapita este o miere de albine interesanta, usor de deosebit fata de celelalte sorturi de miere, in primul rand prin culoarea alba, cateodata alb-gri-galbui, si datorita consistentei cremoase „gen serbet”. Miereade rapita are un miros specific si are un gust placut si mai putin dulce decat alte tipuri de miere.  Cristalizarea mierii de rapita intervine foarte rapid datorita continutului ridicat de glucoza (dextroza), net superior celui de fructoza (levuloza). Din acest motiv, mierea de rapita se gaseste numai sub forma cristalizata, indiferent de perioada din an.",
+      "stock": "175",
+      "currency": "Lei",
+      "id": "18"
+    },
+    {
+      "name": "Miere de Brad 960 g",
+      "picture": "images/products/miere-brad-960g.jpg",
+      "price": "50",
+      "description": "Mierea de brad are un gust mai putin dulce, cu o aroma asemanatoare maltului, culoare inchisa (uneori pana la negru), si un continut de apa mai scazut decat in cazul altor sortimente de miere de albine. Spectrul zaharurilor este net diferit de cel al mierilor florilor de calitate obisnuita. Fructoza (37%) predomina asupra glucozei (32%), dar se gasesc si aproape 11% dizaharide si melezitoza in proportie destul de mare (pana la peste 10%). In general, se poate spune ca spectrul zaharurilor din mierile de brad este decalat spre zaharurile cu greutate moleculara ridicata.",
+      "stock": "60",
+      "currency": "Lei",
+      "id": "19"
+    },
+    {
+      "name": "Miere de Brad 250 g",
+      "picture": "images/products/miere-brad-250g.jpg",
+      "price": "20",
+      "description": "Mierea de brad are un gust mai putin dulce, cu o aroma asemanatoare maltului, culoare inchisa (uneori pana la negru), si un continut de apa mai scazut decat in cazul altor sortimente de miere de albine. Spectrul zaharurilor este net diferit de cel al mierilor florilor de calitate obisnuita. Fructoza (37%) predomina asupra glucozei (32%), dar se gasesc si aproape 11% dizaharide si melezitoza in proportie destul de mare (pana la peste 10%). In general, se poate spune ca spectrul zaharurilor din mierile de brad este decalat spre zaharurile cu greutate moleculara ridicata.",
+      "stock": "90",
+      "currency": "Lei",
+      "id": "20"
+    }
+  ]
+}

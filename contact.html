@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DulceCaMierea</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Stint+Ultra+Condensed&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="contact">
+    <div class="top-menu-wrapper">
+      <a id="brand" href="index.html"
+        ><img src="./images/favicon.ico" alt="" />DulceCaMierea</a
+      >
+      <ul class="top-menu">
+        <li><a href="products.html">PRODUSE</a></li>
+        <li><a href="about.html">DESPRE NOI</a></li>
+        <li><a class="current" href="contact.html">CONTACT</a></li>
+        <li><a href="cart.html">COSUL MEU</a></li>
+      </ul>
+    </div>
+    <div class="contact-container">
+      <h2 class="contact-title">Aveti o intrebare sau o sugestie?</h2>
+      <form
+        action="https://formsubmit.co/alexsergiupop@gmail.com"
+        method="POST"
+      >
+        <input type="hidden" name="_captcha" value="false" />
+        <input
+          type="hidden"
+          name="_next"
+          value="https://alexsergiupop.github.io/Portfolio/Thanks.html"
+        />
+        <input type="hidden" name="_subject" value="New email from Portfolio" />
+        <div>
+          <label class="contact-label" for="name"></label>
+          <input
+            class="contact-input"
+            name="Name"
+            type="text"
+            id="name"
+            placeholder="Nume"
+            required
+          />
+        </div>
+        <div>
+          <label class="contact-label" for="email"></label>
+          <input
+            class="contact-input"
+            name="Email"
+            type="email"
+            id="email"
+            placeholder="Adresa de email"
+            required
+          />
+        </div>
+        <div>
+          <label class="contact-label" for="message"></label>
+          <textarea
+            class="contact-textarea"
+            name="Message"
+            cols="30"
+            rows="10"
+            id="message"
+            placeholder="Mesaj"
+            required
+          ></textarea>
+        </div>
+        <div>
+          <button type="submit" class="submit-btn">Trimite</button>
+        </div>
+        <!-- <div id="status" class="success">Success</div> -->
+      </form>
+    </div>
+    <div class="footer">
+      <a class="github" href="https://github.com/AlexSergiuPop" target="blank"
+        ><i class="fab fa-github"></i
+      ></a>
+      <a
+        class="linkedin"
+        href="https://www.linkedin.com/in/alex-pop-145770ab/"
+        target="_blank"
+        ><i class="fab fa-linkedin-in"></i
+      ></a>
+      <a
+        class="instagram"
+        href="https://www.instagram.com/alexsergiupop/"
+        target="_blank"
+        ><i class="fab fa-instagram"></i
+      ></a>
+      <a
+        class="facebook"
+        href="https://www.facebook.com/popsergiualex"
+        target="_blank"
+        ><i class="fab fa-facebook-f"></i
+      ></a>
+    </div>
+    <div class="copywright" style="color: #fefefe">
+      <h1>
+        Made with <span class="symbol1">&#9829;</span> and
+        <span class="symbol2">&#9749;</span> in
+        <a
+          href="https://www.google.com/maps/place/Satu+Mare/@47.8032098,22.8136022,12z/data=!3m1!4b1!4m5!3m4!1s0x47380434f4e50c2b:0x25e464296f0c3074!8m2!3d47.8016702!4d22.8575926"
+          target="_blank"
+          class="hc"
+          >Satu Mare,</a
+        >
+        <a
+          href="https://www.google.com/maps/place/Romania/@45.9237846,22.777434,7z/data=!3m1!4b1!4m5!3m4!1s0x40b1ff26958976c3:0x84ef4f92a804b194!8m2!3d45.943161!4d24.96676"
+          target="_blank"
+          class="hc"
+        >
+          Romania</a
+        >
+      </h1>
+    </div>
+    <div class="rights" style="color: #fefefe">
+      <h1>Alex Pop 2021 &copy; All rights reserved.</h1>
+    </div>
+  </body>
+</html>

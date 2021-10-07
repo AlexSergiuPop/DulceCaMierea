@@ -1,0 +1,1619 @@
+html {
+  height: 100%;
+  width: 100%;
+  font-size: 62.5%;
+  font-family: raleway extralight;
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+.index {
+  background-color: #252934;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  background-image: url(/images/HoneyWallpaper.jpg);
+}
+.contact {
+  background-color: #252934;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+.about {
+  background-color: #ffffff;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+.all-products {
+  background-color: #f5f5f5;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.thanks {
+  background-color: #252934;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+.admin {
+  background-color: #f5f5f5;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.top-menu {
+  display: flex;
+  margin-right: 10rem;
+  align-items: center;
+}
+.top-menu > li {
+  list-style: none;
+  margin-left: 2rem;
+}
+.top-menu > li > a {
+  text-decoration: none;
+  color: #fefefe;
+  text-align: right;
+  font-size: 2rem;
+  transition: 500ms;
+}
+.fa-user-lock {
+  font-size: 1.5rem;
+}
+.top-menu a:hover {
+  color: #f0a500;
+}
+.top-menu .current {
+  color: #f0a500;
+}
+.top-menu-wrapper-home {
+  background-color: #1b242f;
+  padding: 1rem 0rem;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-weight: 900;
+  position: fixed;
+}
+.top-menu-wrapper-home a,
+.top-menu-wrapper a {
+  display: flex;
+  align-items: center;
+}
+.top-menu-wrapper {
+  background-color: #1b242f;
+  padding: 1rem 0rem;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-weight: 900;
+  border-bottom: 0.3rem solid #f0a500;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+#brand {
+  font-size: 2.5rem;
+  margin-left: 10rem;
+  text-decoration: none;
+  color: #fefefe;
+  transition: 500ms;
+  align-self: center;
+}
+#brand img {
+  width: 4rem;
+  height: 3.5rem;
+}
+#brand:hover {
+  color: #f0a500;
+}
+.site-name {
+  color: #f0a500;
+  font-size: 5rem;
+}
+.introduction {
+  font-size: 2rem;
+  color: #fefefe;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.introduction span {
+  color: #f0a500;
+}
+.inth1 {
+  font-size: 5rem;
+}
+.thankYou {
+  font-size: 2rem;
+  color: #fefefe;
+  transition: 1000ms;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.thankYou span {
+  color: #f0a500;
+}
+.footer {
+  background-color: #1b242f;
+  box-shadow: 0 0 1rem #1b242f;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-decoration: none;
+  font-size: 2.5rem;
+}
+.footer a {
+  color: #fefefe;
+}
+.facebook:hover {
+  transform: scale(1.2);
+  color: #4267b2;
+}
+.instagram:hover {
+  transform: scale(1.2);
+  color: #fbad50;
+}
+.linkedin:hover {
+  transform: scale(1.2);
+  color: #0e76a8;
+}
+.github:hover {
+  transform: scale(1.2);
+  color: #6cc644;
+}
+.copywright {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 0.6rem;
+  padding: 1rem 1rem;
+  text-align: center;
+}
+.copywright a {
+  text-decoration: underline;
+  transition: 1000ms;
+}
+.copywright a:hover {
+  color: #f0a500;
+}
+.copywright a {
+  text-decoration: underline;
+  transition: 1000ms;
+}
+.copywright a:hover {
+  color: #f0a500;
+}
+.copywright .ap {
+  color: #1b242f;
+}
+.copywright .hc {
+  color: #fefefe;
+}
+.symbol1 {
+  font-size: 1.7rem;
+}
+.rights {
+  font-size: 0.6rem;
+  padding: 1rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  text-align: center;
+}
+.contact-title {
+  position: relative;
+  color: #f0a500;
+  font-size: 2.5rem;
+  padding: 2rem 0rem;
+  text-align: center;
+}
+.contact-input,
+.contact-textarea {
+  width: 100%;
+  background: #1b242f;
+  border: 0.5rem solid #252934;
+  font-family: raleway medium;
+  text-indent: 2rem;
+  color: #fefefe;
+  font-size: 2rem;
+  margin-top: 0.1rem;
+}
+.contact-input {
+  height: 4rem;
+  vertical-align: middle;
+}
+textarea {
+  font-family: raleway medium;
+  /* font-size: 2rem; */
+}
+input::placeholder {
+  text-indent: 2rem;
+  font-size: 2rem;
+  font-family: raleway medium;
+}
+.submit-btn {
+  margin-top: 1rem;
+  padding: 1rem;
+  width: 15rem;
+  background: #1b242f;
+  color: white;
+  border-radius: 0.5rem;
+  border: 0.1rem solid #fefefe;
+  color: #fefefe;
+  transition: 500ms;
+  font-size: 1.5rem;
+}
+.submit-btn:hover {
+  background: #f0a500;
+  border: 0.1rem solid #f0a500;
+}
+/* #status {
+  font-size: 2rem;
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+#status.success {
+  background-color: #05c2c9;
+  color: white;
+  animation: status 4s ease forewards;
+}
+#status.error {
+  background-color: #e31b6d;
+  color: white;
+  animation: status 4s ease forewards;
+}
+@keyframes status {
+  0% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  90% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  100% {
+    opacity: 0;
+    pointer-events: none;
+  }
+} */
+.forte {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  text-align: center;
+}
+.forte i {
+  color: #f0a500;
+  font-size: 7rem;
+  padding-bottom: 1rem;
+}
+#fast i {
+  color: #ffffff;
+  animation: fast 5s ease-out 0s 1 normal forwards;
+}
+@keyframes fast {
+  from {
+    color: #ffffff;
+  }
+  to {
+    color: #f0a500;
+  }
+}
+#responsive i {
+  color: #ffffff;
+  animation: fast 5s ease-out 1s 1 normal forwards;
+}
+@keyframes responsive {
+  from {
+    color: #ffffff;
+  }
+  to {
+    color: #f0a500;
+  }
+}
+#quality i {
+  color: #ffffff;
+  animation: fast 5s ease-out 2s 1 normal forwards;
+}
+@keyframes quality {
+  from {
+    color: #ffffff;
+  }
+  to {
+    color: #f0a500;
+  }
+}
+#packing i {
+  color: #ffffff;
+  animation: fast 5s ease-out 3s 1 normal forwards;
+}
+@keyframes packing {
+  from {
+    color: #ffffff;
+  }
+  to {
+    color: #f0a500;
+  }
+}
+.forte h1 {
+  color: #626262;
+  padding-bottom: 1rem;
+  font-size: 3rem;
+  font-weight: bolder;
+}
+.forte h2 {
+  color: #626262;
+  font-weight: normal;
+  padding: 0 2rem;
+}
+.profile-pic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile-pic .pic-hexagon {
+  position: absolute;
+  width: 45rem;
+  height: 40rem;
+}
+.profile-pic .pic-hexagon .pic-shape {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+.description {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+.description h1 {
+  color: #626262;
+  padding-bottom: 3rem;
+  font-size: 3rem;
+  font-weight: bolder;
+}
+.description h2 {
+  color: #626262;
+  font-weight: normal;
+  text-align: center;
+}
+
+@keyframes animate {
+  from {
+    width: 0;
+  }
+}
+.about {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  grid-template-rows: repeat(12, minmax(0, 1fr));
+  grid-template-areas:
+    "header header header header header header header header header header header header"
+    ". . fast fast responsive responsive quality quality packing packing . ."
+    ". . fast fast responsive responsive quality quality packing packing . ."
+    ". . fast fast responsive responsive quality quality packing packing . ."
+    ". . fast fast responsive responsive quality quality packing packing . ."
+    ". . pic pic pic descr descr descr descr descr . ."
+    ". . pic pic pic descr descr descr descr descr . ."
+    ". . pic pic pic descr descr descr descr descr . ."
+    ". . pic pic pic descr descr descr descr descr . ."
+    ". . pic pic pic descr descr descr descr descr . ."
+    ". . pic pic pic descr descr descr descr descr . ."
+    ". copyw copyw copyw . . . . rights rights rights .";
+  height: 100vh;
+  gap: 0.1rem;
+}
+.top-menu-wrapper {
+  grid-area: header;
+}
+#fast {
+  grid-area: fast;
+}
+#responsive {
+  grid-area: responsive;
+}
+#quality {
+  grid-area: quality;
+}
+#packing {
+  grid-area: packing;
+}
+.profile-pic {
+  grid-area: pic;
+}
+.description {
+  grid-area: descr;
+}
+.footer {
+  grid-area: footer;
+}
+.copywright {
+  grid-area: copyw;
+}
+.rights {
+  grid-area: rights;
+}
+/* .all-products {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  grid-template-rows: repeat(12, minmax(0, 1fr));
+  grid-template-areas:
+    "header header header header header header header header header header header header"
+    ". . . . . . . . . . . ."
+    ". . prod prod prod prod prod prod prod prod . ."
+    ". . prod prod prod prod prod prod prod prod . ."
+    ". . prod prod prod prod prod prod prod prod . ."
+    ". . prod prod prod prod prod prod prod prod . ."
+    ". . prod prod prod prod prod prod prod prod . ."
+    ". . prod prod prod prod prod prod prod prod . ."
+    ". . prod prod prod prod prod prod prod prod . ."
+    ". . prod prod prod prod prod prod prod prod . ."
+    ". . . . . . . . . . . ."
+    ". copyw copyw copyw . . . . rights rights rights .";
+  height: 100vh;
+  gap: 0.1rem;
+} */
+/* #products {
+  grid-area: prod;
+} */
+.contact {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  grid-template-rows: repeat(12, minmax(0, 1fr));
+  grid-template-areas:
+    "header header header header header header header header header header header header"
+    ". . . . . . . . . . . ."
+    ". . . . . . . . . . . ."
+    ". . . cont cont cont cont cont cont . . ."
+    ". . . cont cont cont cont cont cont . . ."
+    ". . . cont cont cont cont cont cont . . ."
+    ". . . cont cont cont cont cont cont . . ."
+    ". . . cont cont cont cont cont cont . . ."
+    ". . . cont cont cont cont cont cont . . ."
+    ". . . cont cont cont cont cont cont . . ."
+    ". . . . . . . . . . . ."
+    ". copyw copyw copyw . footer footer . rights rights rights .";
+  height: 100vh;
+  gap: 0.1rem;
+}
+.contact-container {
+  grid-area: cont;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.index {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  grid-template-rows: repeat(12, minmax(0, 1fr));
+  grid-template-areas:
+    "headerh headerh headerh headerh headerh headerh headerh headerh headerh headerh headerh headerh"
+    ". . . . . . . . . . . ."
+    ". sn sn sn sn sn sn . . . . ."
+    ". . . . . . . . . . . ."
+    ". . . . . . . . . . . ."
+    ". int int int int int int . . . . ."
+    ". int int int int int int . . . . ."
+    ". . . . . . . . . . . ."
+    ". . . . . . . . . . . ."
+    ". . . . . . . . . . . ."
+    ". . . . . . . . . . . ."
+    ". copyw copyw copyw . . . . rights rights rights .";
+  height: 100vh;
+  gap: 0.1rem;
+}
+.site-name {
+  grid-area: sn;
+}
+.top-menu-wrapper-home {
+  grid-area: headerh;
+}
+.introduction {
+  grid-area: int;
+}
+.project {
+  transition: all 1s;
+  overflow: hidden;
+  box-shadow: 0rem 0rem 1rem #626262;
+  border: 0.1rem solid #626262;
+}
+.project:hover,
+.project:focus {
+  transform: scale(1.02);
+}
+.thanks {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  grid-template-rows: repeat(12, minmax(0, 1fr));
+  grid-template-areas:
+    "headerh headerh headerh headerh headerh headerh headerh headerh headerh headerh headerh headerh"
+    ". . . . . . . . . . . ."
+    ". . . . . . . . . . . ."
+    ". . . . . . . . . . . ."
+    ". . . . . . . . . . . ."
+    ". . . ty ty ty ty ty ty . . ."
+    ". . . ty ty ty ty ty ty . . ."
+    ". . . . . . . . . . . ."
+    ". . . . . . . . . . . ."
+    ". . . . . . . . . . . ."
+    ". . . . . . . . . . . ."
+    ". copyw copyw copyw . . . . rights rights rights .";
+  height: 100vh;
+  gap: 0.1rem;
+}
+.thankYou {
+  grid-area: ty;
+}
+@media (max-width: 480px) {
+  .index {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: repeat(12, minmax(0, 1fr));
+    grid-template-areas:
+      "headerh headerh"
+      ". ."
+      "sn sn"
+      ". ."
+      "int int"
+      "int int"
+      "int int"
+      "int int"
+      ". ."
+      ". ."
+      ". ."
+      "copyw rights";
+    height: 100vh;
+  }
+  .top-menu {
+    margin-right: 2rem;
+  }
+  #brand {
+    margin-left: 2rem;
+    font-size: 1.5rem;
+  }
+  .introduction {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+  }
+  .top-menu > li > a {
+    font-size: 1.5rem;
+  }
+  .top-menu-wrapper-home {
+    padding: 0.4rem 0rem;
+  }
+  .top-menu-wrapper {
+    padding: 0.4rem 0rem;
+  }
+  .thanks {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: repeat(12, minmax(0, 1fr));
+    grid-template-areas:
+      "headerh headerh"
+      ". ."
+      ". ."
+      ". ."
+      "ty ty"
+      "ty ty"
+      "ty ty"
+      "ty ty"
+      ". ."
+      ". ."
+      ". ."
+      "copyw rights";
+    height: 100vh;
+  }
+  .thankYou {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+  }
+  .about {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: repeat(12, minmax(0, 1fr));
+    grid-template-areas:
+      "header header"
+      "fast responsive"
+      "fast responsive"
+      "quality packing"
+      "quality packing"
+      "pic pic"
+      "pic pic"
+      "descr descr"
+      "descr descr"
+      "descr descr"
+      "descr descr"
+      "copyw rights";
+    height: 100vh;
+  }
+  .forte {
+    padding: 0.1rem 1rem;
+  }
+  .forte i {
+    font-size: 2.5rem;
+    padding: 0;
+  }
+  .forte h1 {
+    font-size: 1.5rem;
+    padding: 0rem;
+  }
+  .forte h2 {
+    font-size: 1rem;
+  }
+  .description {
+    padding: 0rem 2rem;
+  }
+  .description h1 {
+    font-size: 1.5rem;
+    padding: 0;
+  }
+  .description h2 {
+    font-size: 1rem;
+  }
+  .graph {
+    padding: 0rem 2rem;
+  }
+  .profile-pic .pic-hexagon {
+    width: 13rem;
+    height: 9rem;
+  }
+  .graph .skills {
+    margin: 0.8rem 0;
+    height: 1.5rem;
+  }
+  .graph .skills .Name {
+    font-size: 1rem;
+  }
+  .graph .skills .Value {
+    height: 1.5rem;
+    font-size: 1rem;
+  }
+  .graph .skills .percent {
+    height: 1.5rem;
+  }
+  .copywright {
+    font-size: 0.4rem;
+    padding: 0 1rem;
+  }
+  .rights {
+    font-size: 0.4rem;
+  }
+  .symbol1 {
+    font-size: 1rem;
+  }
+  .projects {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: repeat(12, minmax(0, 1fr));
+    grid-template-areas:
+      "header header"
+      ". ."
+      "p1 p1"
+      "p1 p1"
+      "p1 p1"
+      "p2 p2"
+      "p3 p3"
+      "p4 p4"
+      "p5 p5"
+      "p6 p6"
+      ". ."
+      "copyw rights";
+    height: 100vh;
+  }
+  .contact {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: repeat(12, minmax(0, 1fr));
+    grid-template-areas:
+      "header header"
+      ". ."
+      ". ."
+      ". ."
+      "cont cont"
+      "cont cont"
+      "cont cont"
+      ". ."
+      ". ."
+      ". ."
+      "copyw rights"
+      "footer footer";
+    height: 100vh;
+  }
+  .contact-container {
+    padding: 0 2rem;
+  }
+  .contact-title {
+    font-size: 2rem;
+  }
+  .contact-input,
+  .contact-textarea {
+    font-size: 1.5rem;
+  }
+  .contact-input {
+    height: 3rem;
+  }
+  input::placeholder {
+    text-indent: 2rem;
+    font-size: 1.5rem;
+    font-family: raleway medium;
+  }
+  .submit-btn {
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    width: 10rem;
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .index {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: repeat(12, minmax(0, 1fr));
+    grid-template-areas:
+      "headerh headerh"
+      ". ."
+      "sn sn"
+      ". ."
+      "int int"
+      "int int"
+      "int int"
+      "int int"
+      ". ."
+      ". ."
+      ". ."
+      "copyw rights";
+    height: 100vh;
+  }
+  .top-menu {
+    margin-right: 4rem;
+  }
+  #brand {
+    margin-left: 4rem;
+    font-size: 2rem;
+  }
+  .introduction {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+  }
+  .top-menu > li > a {
+    font-size: 2rem;
+  }
+  .top-menu-wrapper-home {
+    padding: 0.4rem 0rem;
+  }
+  .top-menu-wrapper {
+    padding: 0.4rem 0rem;
+  }
+  .thanks {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: repeat(12, minmax(0, 1fr));
+    grid-template-areas:
+      "headerh headerh"
+      ". ."
+      ". ."
+      ". ."
+      "ty ty"
+      "ty ty"
+      "ty ty"
+      "ty ty"
+      ". ."
+      ". ."
+      ". ."
+      "copyw rights";
+    height: 100vh;
+  }
+  .thankYou {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+  }
+  .about {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: repeat(12, minmax(0, 1fr));
+    grid-template-areas:
+      "header header"
+      "fast responsive"
+      "fast responsive"
+      "quality packing"
+      "quality packing"
+      "pic pic"
+      "pic pic"
+      "descr descr"
+      "descr descr"
+      "descr descr"
+      "descr descr"
+      "copyw rights";
+    height: 100vh;
+  }
+  .forte {
+    padding: 1rem 4rem;
+  }
+  .forte i {
+    font-size: 4rem;
+    padding: 1;
+  }
+  .forte h1 {
+    font-size: 2rem;
+    padding: 0rem;
+  }
+  .forte h2 {
+    font-size: 1.3rem;
+  }
+  .description {
+    padding: 0rem 4rem;
+  }
+  .description h1 {
+    font-size: 2rem;
+    padding: 0.5rem;
+  }
+  .description h2 {
+    font-size: 1.3rem;
+  }
+  .graph {
+    padding: 2rem 4rem;
+  }
+  .profile-pic .pic-hexagon {
+    width: 15rem;
+    height: 10rem;
+  }
+  .graph .skills {
+    margin: 1rem 0;
+    height: 1.7rem;
+  }
+  .graph .skills .Name {
+    font-size: 1rem;
+  }
+  .graph .skills .Value {
+    height: 1.7rem;
+    font-size: 1rem;
+  }
+  .graph .skills .percent {
+    height: 1.7rem;
+  }
+  .copywright {
+    font-size: 0.5rem;
+  }
+  .symbol1 {
+    font-size: 1.5rem;
+  }
+  .rights {
+    font-size: 0.5rem;
+  }
+  .projects {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: repeat(12, minmax(0, 1fr));
+    grid-template-areas:
+      "header header"
+      ". ."
+      "p1 p1"
+      "p1 p1"
+      "p1 p1"
+      "p2 p2"
+      "p3 p3"
+      "p4 p4"
+      "p5 p5"
+      "p6 p6"
+      ". ."
+      "copyw rights";
+    height: 100vh;
+  }
+  .contact {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: repeat(12, minmax(0, 1fr));
+    grid-template-areas:
+      "header header"
+      ". ."
+      ". ."
+      ". ."
+      "cont cont"
+      "cont cont"
+      "cont cont"
+      ". ."
+      ". ."
+      ". ."
+      "copyw rights"
+      "footer footer";
+    height: 100vh;
+  }
+  .contact-container {
+    padding: 0 4rem;
+  }
+  .contact-title {
+    font-size: 2rem;
+  }
+  .contact-input,
+  .contact-textarea {
+    font-size: 1.5rem;
+  }
+  .contact-input {
+    height: 3rem;
+  }
+  input::placeholder {
+    text-indent: 2rem;
+    font-size: 1.5rem;
+    font-family: raleway medium;
+  }
+  .submit-btn {
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    width: 10rem;
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .index {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: repeat(12, minmax(0, 1fr));
+    grid-template-areas:
+      "headerh headerh"
+      ". ."
+      "sn sn"
+      ". ."
+      "int int"
+      "int int"
+      "int int"
+      "int int"
+      ". ."
+      ". ."
+      ". ."
+      "copyw rights";
+    height: 100vh;
+  }
+  .top-menu {
+    margin-right: 7rem;
+  }
+  #brand {
+    margin-left: 7rem;
+    font-size: 2.2rem;
+  }
+  .introduction {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+  }
+  .top-menu > li > a {
+    font-size: 2.2rem;
+  }
+  .top-menu-wrapper-home {
+    padding: 0.6rem 0rem;
+  }
+  .top-menu-wrapper {
+    padding: 0.6rem 0rem;
+  }
+  .thanks {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: repeat(12, minmax(0, 1fr));
+    grid-template-areas:
+      "headerh headerh"
+      ". ."
+      ". ."
+      ". ."
+      "ty ty"
+      "ty ty"
+      "ty ty"
+      "ty ty"
+      ". ."
+      ". ."
+      ". ."
+      "copyw rights";
+    height: 100vh;
+  }
+  .thankYou {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+  }
+  .about {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: repeat(12, minmax(0, 1fr));
+    grid-template-areas:
+      "header header"
+      "fast responsive"
+      "fast responsive"
+      "quality packing"
+      "quality packing"
+      "pic pic"
+      "pic pic"
+      "descr descr"
+      "descr descr"
+      "descr descr"
+      "descr descr"
+      "copyw rights";
+    height: 100vh;
+  }
+  .forte {
+    padding: 1rem 4rem;
+  }
+  .forte i {
+    font-size: 6rem;
+    padding: 1;
+  }
+  .forte h1 {
+    font-size: 2.5rem;
+    padding: 1rem;
+  }
+  .forte h2 {
+    font-size: 1.7rem;
+    padding: 0 3rem;
+  }
+  .description {
+    padding: 0rem 4rem;
+  }
+  .description h1 {
+    font-size: 2.5rem;
+    padding: 0.5rem;
+  }
+  .description h2 {
+    font-size: 1.7rem;
+    padding: 0 3rem;
+  }
+  .graph {
+    padding: 2rem 6rem;
+  }
+  .profile-pic .pic-hexagon {
+    width: 20rem;
+    height: 14rem;
+  }
+  .graph .skills {
+    margin: 1.5rem 0;
+    height: 2rem;
+  }
+  .graph .skills .Name {
+    font-size: 1.2rem;
+  }
+  .graph .skills .Value {
+    height: 2rem;
+    font-size: 1.2rem;
+  }
+  .graph .skills .percent {
+    height: 2rem;
+  }
+  .copywright {
+    font-size: 0.6rem;
+  }
+  .symbol1 {
+    font-size: 1.8rem;
+  }
+  .rights {
+    font-size: 0.6rem;
+  }
+  .projects {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-template-rows: repeat(12, minmax(0, 1fr));
+    grid-template-areas:
+      "header header header header"
+      ". . . ."
+      ". p1 p1 ."
+      ". p1 p1 ."
+      ". p2 p3 ."
+      ". p2 p3 ."
+      ". p4 p5 ."
+      ". p4 p5 ."
+      ". p6 p6 ."
+      ". p6 p6 ."
+      ". . . ."
+      "copyw copyw rights rights";
+    height: 100vh;
+  }
+  .contact {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: repeat(12, minmax(0, 1fr));
+    grid-template-areas:
+      "header header"
+      ". ."
+      ". ."
+      ". ."
+      "cont cont"
+      "cont cont"
+      "cont cont"
+      ". ."
+      ". ."
+      ". ."
+      "copyw rights"
+      "footer footer";
+    height: 100vh;
+  }
+  .contact-container {
+    padding: 0 4rem;
+  }
+  .contact-title {
+    font-size: 2.5rem;
+  }
+  .contact-input,
+  .contact-textarea {
+    font-size: 2rem;
+  }
+  .contact-input {
+    height: 3rem;
+  }
+  input::placeholder {
+    text-indent: 2rem;
+    font-size: 2rem;
+    font-family: raleway medium;
+  }
+  .submit-btn {
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    width: 10rem;
+    font-size: 2rem;
+  }
+  .copywright {
+    display: flex;
+    align-items: flex-end;
+  }
+  .rights {
+    display: flex;
+    align-items: flex-end;
+  }
+}
+#products {
+  display: flex;
+  box-shadow: 0 0.1rem 0.5rem #f0a500;
+  width: 80%;
+  padding: 5rem;
+  gap: 3rem;
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+  flex-wrap: wrap;
+}
+.products-each {
+  width: auto;
+  position: relative;
+  box-shadow: 0 0.1rem 0.5rem #f0a500;
+  background: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: auto;
+}
+.products-card {
+  padding: 1rem;
+  height: 15rem;
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.product-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 25rem;
+  width: 20rem;
+  background: white;
+}
+
+.product-img img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.product-name {
+  font-weight: 600;
+  color: #363636;
+  overflow: hidden;
+  padding: 1rem;
+  width: 100%;
+  height: 50%;
+}
+
+.product-price {
+  font-size: 3rem;
+  color: #fbb72c;
+  font-weight: 600;
+  width: 100%;
+  height: 30%;
+  text-align: center;
+}
+
+.btn-details {
+  background-color: #f0a500;
+  padding: 0.5rem;
+  display: inline;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  width: 100%;
+  height: 20%;
+  transition: 500ms;
+}
+.btn-details:hover {
+  color: #f0a500;
+  background-color: #1b242f;
+  cursor: pointer;
+}
+
+.container-products {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  padding: 5rem;
+  margin-bottom: 5rem;
+  margin-top: 10rem;
+  box-shadow: 0 0.1rem 0.5rem #f0a500;
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+  width: 100%;
+  font-size: 2rem;
+}
+#btn-add-product {
+  float: right;
+  margin-top: 1rem;
+  padding: 1rem;
+  width: 100%;
+  background: #1b242f;
+  color: white;
+  border-radius: 0.5rem;
+  border: 0.1rem solid #fefefe;
+  color: #fefefe;
+  transition: 500ms;
+  font-size: 1.5rem;
+  margin-right: 0.3rem;
+}
+#btn-add-product:hover {
+  background: #f0a500;
+  border: 0.1rem solid #f0a500;
+  color: #1b242f;
+  cursor: pointer;
+}
+.container-header {
+  box-shadow: 0 0.1rem 0.5rem #f0a500;
+  padding: 2rem;
+  font-size: 2rem;
+}
+.form-control {
+  width: 100%;
+  background: #fefefe;
+  text-indent: 2rem;
+  color: #fefefe;
+  font-size: 2rem;
+  margin-top: 0.2rem;
+  border: 0.1rem solid #f0a500;
+  color: #1b242f;
+}
+.form-control:focus {
+  background-color: #ffef78;
+}
+#details {
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0 0.1rem 0.5rem #f0a500;
+  width: 70%;
+  height: 70rem;
+  padding: 5rem;
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+  background-color: white;
+}
+.detail-card {
+  padding: 1rem;
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.detail-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 50%;
+  background: white;
+}
+
+.detail-img img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.detail-name {
+  font-weight: 600;
+  color: #363636;
+  overflow: hidden;
+  padding: 1rem;
+  width: 100%;
+  height: 10%;
+  font-size: 4rem;
+  text-align: center;
+}
+
+.detail-description {
+  font-weight: 300;
+  color: #363636;
+  overflow: hidden;
+  padding: 1rem;
+  width: 100%;
+  height: 40%;
+  font-size: 2rem;
+}
+
+.detail-price {
+  font-size: 3rem;
+  color: #fbb72c;
+  font-weight: 600;
+  width: 100%;
+  height: 15%;
+  text-align: center;
+  font-size: 7rem;
+  text-align: center;
+}
+
+.detail-stock {
+  font-size: 3rem;
+  color: #363636;
+  font-weight: 600;
+  width: 100%;
+  height: 15%;
+  text-align: center;
+}
+
+.detail-stock span {
+  color: #fbb72c;
+}
+.bought-quantity {
+  width: 100%;
+  height: 10%;
+  text-align: center;
+  color: #363636;
+  font-size: 3rem;
+  font-weight: 600;
+}
+#quantity {
+  width: 8rem;
+  font-size: 3rem;
+  font-weight: 600;
+  text-align: center;
+  box-shadow: 0 0.1rem 0.5rem #f0a500;
+  border: none;
+}
+#quantity:hover {
+  background-color: #f0a500;
+}
+
+#btn-addtocart {
+  background-color: #f0a500;
+  padding: 0.5rem;
+  display: inline;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  width: 100%;
+  height: 10%;
+  transition: 500ms;
+  font-size: 3rem;
+}
+#btn-addtocart:hover {
+  color: #f0a500;
+  background-color: #1b242f;
+  cursor: pointer;
+}
+#container-body {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0.1rem 0.5rem #f0a500;
+  padding: 2rem;
+  font-size: 2rem;
+  margin-top: 5rem;
+  width: 100%;
+}
+.admin-products {
+  display: flex;
+  flex-direction: row;
+  background-color: #363636;
+  color: white;
+  height: 3.5rem;
+  width: 100%;
+  align-items: center;
+  border: 0.1rem solid #f0a500;
+}
+.admin-id {
+  width: 5%;
+}
+.admin-picture {
+  width: 5%;
+}
+.admin-name {
+  width: 50%;
+}
+.admin-stock {
+  width: 10%;
+}
+.admin-price {
+  width: 10%;
+}
+.admin-currency {
+  width: 10%;
+}
+.admin-delete {
+  width: 10%;
+}
+.admin-id,
+.admin-currency,
+.admin-delete,
+.admin-name,
+.admin-picture,
+.admin-price,
+.admin-stock {
+  border: 0.1rem solid #f0a500;
+  text-align: center;
+}
+#admin-products {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  color: #363636;
+  height: 3.5rem;
+  width: 100%;
+  align-items: center;
+}
+#available {
+  display: flex;
+  flex-direction: column;
+}
+.admin-picture img {
+  height: 2rem;
+  width: 100%;
+}
+#available-prod {
+  display: flex;
+  flex-direction: row;
+}
+.btn-admdelete {
+  width: 100%;
+  background: #1b242f;
+  color: white;
+  border-radius: 0.5rem;
+  border: 0.1rem solid #fefefe;
+  color: #fefefe;
+  transition: 500ms;
+  font-size: 2rem;
+  margin-right: 0.3rem;
+}
+.btn-admdelete:hover {
+  background: #f0a500;
+  border: 0.1rem solid #f0a500;
+  color: #1b242f;
+  cursor: pointer;
+}
+#cart {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  padding: 5rem;
+  margin-bottom: 5rem;
+  margin-top: 10rem;
+  box-shadow: 0 0.1rem 0.5rem #f0a500;
+}
+.cart-header {
+  display: flex;
+  flex-direction: row;
+  background-color: #1b242f;
+  color: white;
+  height: 3.5rem;
+  width: 100%;
+  align-items: center;
+  border: 0.1rem solid #f0a500;
+  font-size: 2.5rem;
+  height: 4rem;
+}
+.prod-picture {
+  width: 15%;
+}
+.prod-name {
+  width: 35%;
+}
+.prod-available {
+  width: 10%;
+}
+.prod-ordered {
+  width: 15%;
+}
+.prod-price {
+  width: 5%;
+}
+.prod-totalprice {
+  width: 10%;
+}
+.prod-delete {
+  width: 10%;
+}
+.prod-picture,
+.prod-name,
+.prod-available,
+.prod-ordered,
+.prod-price,
+.prod-price,
+.prod-totalprice,
+.prod-delete {
+  border: 0.1rem solid #f0a500;
+  text-align: center;
+  height: 4rem;
+  padding-top: 0.5rem;
+}
+.cart-footer {
+  display: flex;
+  flex-direction: column;
+}
+.total-price {
+  font-size: 3rem;
+  width: 15%;
+  margin: 5rem 0.3rem 2rem 2rem;
+  align-self: flex-end;
+}
+#order-btn {
+  background: #1b242f;
+  color: white;
+  border-radius: 0.5rem;
+  border: 0.1rem solid #fefefe;
+  color: #fefefe;
+  transition: 500ms;
+  font-size: 2rem;
+  margin: 2rem 0.3rem 5rem 5rem;
+  height: 4rem;
+  width: 20rem;
+  float: right;
+}
+#order-btn:hover {
+  background: #f0a500;
+  border: 0.1rem solid #f0a500;
+  color: #1b242f;
+  cursor: pointer;
+}
+.cart-items {
+  display: flex;
+  flex-direction: row;
+  height: 3.5rem;
+  width: 100%;
+  align-items: center;
+  border: 0.1rem solid #f0a500;
+  font-size: 2.5rem;
+  height: 4rem;
+}
+.prod-picture {
+}
+.prod-picture img {
+  height: 3rem;
+  width: 7rem;
+}
+.final-quantity {
+  width: 10rem;
+  font-size: 2.5rem;
+  text-align: center;
+  box-shadow: 0 0.1rem 0.5rem #f0a500;
+  border: none;
+}
