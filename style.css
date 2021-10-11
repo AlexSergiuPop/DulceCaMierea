@@ -1182,6 +1182,8 @@ input::placeholder {
   margin-top: 10rem;
   margin-bottom: 5rem;
   flex-wrap: wrap;
+  overflow-y: scroll;
+  height: 70rem;
 }
 .products-each {
   width: auto;
@@ -1369,7 +1371,6 @@ input::placeholder {
   height: 15%;
   text-align: center;
   font-size: 7rem;
-  text-align: center;
 }
 
 .detail-stock {
@@ -1616,4 +1617,12 @@ input::placeholder {
   text-align: center;
   box-shadow: 0 0.1rem 0.5rem #f0a500;
   border: none;
+}
+.footerNew {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 0;
+  margin: 0;
 }
